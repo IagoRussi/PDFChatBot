@@ -14,11 +14,7 @@ AsimoBot é um chatbot em Python que responde perguntas com base em informaçõe
 git clone https://github.com/IagoRussi/PDFChatBot.git
 
 2. Instale as dependências:
-pip install langchain
-pip install langchain-groq
-pip install beautifulsoup4
-pip install PyPDF2
-pip install python-dotenv
+pip install -r requirements.txt
 
 3. Rode o ChatBot
 python app.py

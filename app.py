@@ -10,7 +10,7 @@ chat = ChatGroq(model="llama-3.3-70b-versatile")
 
 
 def resposta_do_bot(lista_mensagens, documento):
-    mensagem_system = "Você é um assistente útil chamado AsimoBot. Você ultiliza as seguintes informações para as suas respostas : {informacoes}"
+    mensagem_system = "Você é um assistente útil chamado AsimoBot. Você utiliza as seguintes informações para as suas respostas : {informacoes}"
     mensagens_modelo = [("system", mensagem_system)]
     mensagens_modelo += lista_mensagens
     template = ChatPromptTemplate.from_messages(mensagens_modelo)
@@ -68,4 +68,5 @@ while True:
     print(f'Bot: {resposta}')
 
 print('\nMuito obrigado por utilizar o AsimoBot!')
+
 

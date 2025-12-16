@@ -27,8 +27,8 @@ Caso escolha um site:
 basta informar a URL desejada. Após isso, o usuário poderá fazer qualquer pergunta, e o chat responderá com base nas informações contidas no site informado.
 
 Caso escolha um PDF:
-será necessário informar o caminho do arquivo no computador, colocando-o entre aspas.
+será necessário informar o caminho do arquivo no computador:
 Exemplo:
-"C:\caminho\para\arquivo.pdf"
+C:\caminho\para\arquivo.pdf (Certifique-se de que o caminho não esteja entre aspas.)
 
 Em seguida, o usuário poderá fazer qualquer pergunta, e o chat responderá com base nas informações presentes no PDF fornecido.

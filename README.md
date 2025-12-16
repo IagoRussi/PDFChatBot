@@ -21,7 +21,14 @@ python app.py
 
 ## Aplicação
 
-O chat vai pedir se deseja conversar com um Site ou com um PDF, se for um site só digitar a URL do site e depois perguntar qu alquer coisa que o chat irá responder basesado nas informações do site inserido
+O chat solicitará que o usuário escolha se deseja conversar com um site ou com um arquivo PDF.
 
+Caso escolha um site:
+basta informar a URL desejada. Após isso, o usuário poderá fazer qualquer pergunta, e o chat responderá com base nas informações contidas no site informado.
 
-Se for um PDF, devera passar o local do pdf no computador entre aspas, exemplo : " " depois ´so perguntar qualquer coisa que o chat ira responder baseado nas infroamçõse do site inserido
+Caso escolha um PDF:
+será necessário informar o caminho do arquivo no computador, colocando-o entre aspas.
+Exemplo:
+"C:\caminho\para\arquivo.pdf"
+
+Em seguida, o usuário poderá fazer qualquer pergunta, e o chat responderá com base nas informações presentes no PDF fornecido.

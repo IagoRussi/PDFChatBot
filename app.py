@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import WebBaseLoader, PyPDFLoader
 import os
 from langchain_groq import ChatGroq
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 
 api_key = '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'
 os.environ['GROQ_API_KEY'] = api_key
@@ -68,3 +68,4 @@ while True:
     print(f'Bot: {resposta}')
 
 print('\nMuito obrigado por utilizar o AsimoBot!')
+

@@ -11,8 +11,7 @@ AsimoBot é um chatbot em Python que responde perguntas com base em informaçõe
 ## Como usar
 
 1. Clone o repositório:
-git clone https://github.com/seuusuario/asimobot.git
-cd asimobot
+git clone https://github.com/IagoRussi/PDFChatBot.git
 
 2. Instale as dependências:
 pip install langchain
